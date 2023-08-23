@@ -9,7 +9,7 @@
 #' @return A string with the pattern replacements performed.
 #' @export
 str_replace_vector = function(x, pattern, replacement){
-  reduce(seq_along(pattern),
-         ~str_replace_all(.x, pattern[.y], replacement[.y]),
+  purrr::reduce(seq_along(pattern),
+         ~stringr::str_replace_all(.x, pattern[.y], replacement[.y]),
          .init = x)
 }
