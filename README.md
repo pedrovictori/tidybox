@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 tidybox is a collection of additions to dplyr and other tidyverse
-libraries that are useful for me, so they could be useful for others.
+libraries that are useful to me, so they could be useful to others.
 
 ## Installation
 
