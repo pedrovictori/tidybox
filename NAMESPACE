@@ -3,5 +3,7 @@
 export("%>%")
 export(distil)
 export(exclude)
+export(if_na)
+export(if_not_na)
 export(str_replace_vector)
 importFrom(magrittr,"%>%")
